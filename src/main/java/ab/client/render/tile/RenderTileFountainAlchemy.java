@@ -16,9 +16,9 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import vazkii.botania.client.core.handler.ClientTickHandler;
 import ab.client.model.ModelFountainAlchemy;
 import ab.common.block.tile.TileFountainAlchemy;
+import vazkii.botania.client.core.handler.ClientTickHandler;
 
 public class RenderTileFountainAlchemy extends TileEntitySpecialRenderer {
 

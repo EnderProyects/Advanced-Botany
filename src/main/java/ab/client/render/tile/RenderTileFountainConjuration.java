@@ -16,9 +16,9 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import vazkii.botania.client.core.handler.ClientTickHandler;
 import ab.client.model.ModelFountainConjuration;
 import ab.common.block.tile.TileFountainConjuration;
+import vazkii.botania.client.core.handler.ClientTickHandler;
 
 public class RenderTileFountainConjuration extends TileEntitySpecialRenderer {
 

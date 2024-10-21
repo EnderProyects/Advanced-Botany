@@ -1140,51 +1140,6 @@ public class RecipeListAB implements IModHelper {
                         new AdvancedPlateCraftPage(advandedAgglomerationPlate, nebulaRecipe.getOutput(), ".abCraft0") })
                 .setIcon(new ItemStack(BlockListAB.blockABPlate));
 
-        // Ae2 additions recipes
-
-        GameRegistry.addRecipe(
-                new ShapedOreRecipe(
-                        new ItemStack((Item) Item.itemRegistry.getObject("ae2additions:a_accelerators"), 1, 2),
-                        "CCC",
-                        "C8C",
-                        "CCC",
-                        '8',
-                        new ItemStack(
-                                (Item) Item.itemRegistry.getObject("appliedenergistics2:item.ItemMultiMaterial"),
-                                1,
-                                34),
-                        'C',
-                        new ItemStack((Item) Item.itemRegistry.getObject("ae2additions:a_accelerators"), 1, 1)));
-        GameRegistry.addRecipe(
-                new ShapedOreRecipe(
-                        new ItemStack((Item) Item.itemRegistry.getObject("ae2additions:a_accelerators"), 1, 1),
-                        "CCC",
-                        "C8C",
-                        "CCC",
-                        '8',
-                        new ItemStack(
-                                (Item) Item.itemRegistry.getObject("appliedenergistics2:item.ItemMultiMaterial"),
-                                1,
-                                34),
-                        'C',
-                        new ItemStack((Item) Item.itemRegistry.getObject("ae2additions:a_accelerators"))));
-        GameRegistry.addRecipe(
-                new ShapedOreRecipe(
-                        new ItemStack((Item) Item.itemRegistry.getObject("ae2additions:a_accelerators")),
-                        "CCC",
-                        "C8C",
-                        "CCC",
-                        '8',
-                        new ItemStack(
-                                (Item) Item.itemRegistry.getObject("appliedenergistics2:item.ItemMultiMaterial"),
-                                1,
-                                34),
-                        'C',
-                        new ItemStack(
-                                (Item) Item.itemRegistry.getObject("appliedenergistics2:tile.BlockCraftingUnit"),
-                                1,
-                                1)));
-
         // Natural mana spreader recipe
 
         GameRegistry.addRecipe(
